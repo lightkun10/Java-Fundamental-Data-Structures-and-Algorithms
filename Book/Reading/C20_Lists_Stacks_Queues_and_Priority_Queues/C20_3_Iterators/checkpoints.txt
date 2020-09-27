@@ -1,0 +1,19 @@
+20.3.1 
+How do you obtain an iterator from a collection object?
+Answer: Because collection extends Iterable interface, 
+        I can use iterator() method to obtain iterator.
+
+20.3.2 
+What method do you use to obtain an element in the 
+collection from an iterator?
+Answer: With next() method.
+
+20.3.3 
+Can you use a foreach loop to traverse the elements 
+in any instance of Collection?
+Answer: Yes.
+
+20.3.4
+When using a foreach loop to traverse all elements in a collection,
+do you need to use the next() or hasNext() methods in an iterator?
+Answer: No. They are implicitly used in a foreach loop.
