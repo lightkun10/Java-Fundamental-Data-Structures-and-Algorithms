@@ -1,0 +1,41 @@
+20.2.1 
+What is a data structure?
+Answer: A collection of data organized in some fashion 
+        so that it can be used effectively.
+
+20.2.2 
+Describe the Java Collections Framework. List the interfaces, 
+convenience abstract classes, and concrete classes under the Collection interface.
+Answer: Java Collections Framework is a set of classes 
+        and interfaces with ready-made architecture.
+        "Set", "List" and "Map" Interfaces are under the Collection interface
+        A convenience class is an abstract class that 
+        partially implements an interface. 
+        The Java Collections Framework defines interfaces, 
+        convenience abstract classes, and concrete classes.
+
+20.2.3
+Can a collection object be cloned and serialized?
+Answer: Yes. All the concrete classes in Java Collections 
+        Framework(Set, List, and Map) implement the java.lang.Cloneable and 
+        java.io.Serializable interfaces with clone() method.
+
+20.2.4
+What method do you use to add all the elements from one collection 
+to another collection?
+Answer: addAll(Collection c);
+
+20.2.5 
+When should a method throw an UnsupportedOperationException?
+Answer: If a method has no meaning in the subclass, you can 
+        implement it in the subclass to 
+        throw java.lang.UnsupportedOperationException, a subclass 
+        of RuntimeException. This is a good design that you can 
+        use in your project. If a method has no meaning in 
+        the subclass, you can implement it as follows:
+        ================================================
+            public void someMethod() {
+                throw new UnsupportedOperationException
+                ("Method not supported");
+            }
+        ================================================
