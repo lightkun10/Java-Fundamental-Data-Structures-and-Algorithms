@@ -1,0 +1,16 @@
+A wildcard generic type has three forms: 
+- ?,
+- ? extends T,
+- ? super T, where T is a generic type.
+
+===================================================================
+?, called an unbounded wildcard, is the same as ? extends Object.
+===================================================================
+
+=========================================================================
+? extends T, called a bounded wildcard, represents T or a subtype of T.
+=========================================================================
+
+========================================================================
+? super T, called a lower bound wildcard, denotes T or a supertype of T
+========================================================================

@@ -1,3 +1,4 @@
+package C19_3_Defining_generic_classes_and_interfaces;
 
 import java.util.ArrayList;
 
@@ -24,9 +25,9 @@ public class GenericStack<E> {  // generic type E declared
     }
 
     public E pop() {    // pop
-        E o = list.get(this.getSize() - 1);
-        list.remove(this.getSize() - 1);
-        return o;
+        E o = list.get(this.getSize() - 1); // Get the last item in list
+        list.remove(this.getSize() - 1); // remove the last item in list
+        return o;   // return the last item in list that is saved as variable
     }
 
     public boolean isEmpty() {
