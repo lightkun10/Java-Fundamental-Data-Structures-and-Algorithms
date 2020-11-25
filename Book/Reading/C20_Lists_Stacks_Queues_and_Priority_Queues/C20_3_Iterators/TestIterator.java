@@ -2,6 +2,11 @@ package C20_3_Iterators;
 
 import java.util.*;
 
+/*
+Iterator is a classic design pattern for walking 
+through a data structure without having to expose 
+the details of how data is stored in the data structure
+*/
 public class TestIterator {
     public static void main(String[] args) {
         /* Creates a concrete collection object using ArrayList */
